@@ -1,10 +1,10 @@
-*, *::after, *::before{
+ *, *::after, *::before{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
  }
  body {
-    background-image: url(./img/фон.JPG);
+    background-image: url(./img/fon.JPG);
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed; 
@@ -675,7 +675,7 @@ input{
     right: 10px;
     width: 70px;
     height: 60px;
-    background: url(./img/вверх.png);
+    background: url(./img/vverx.png);
     background-size: cover;
     z-index: 1;
     cursor: pointer;
@@ -903,7 +903,7 @@ width: 30%;
 }
 @media (max-width: 480px) {
     body{
-        background-image: url(./img/фон-телефон.JPG);
+        background-image: url(./img/fontel.JPG);
     }
   .header{
     background-color: #00000086;
