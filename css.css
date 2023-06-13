@@ -2065,8 +2065,21 @@ width: 30%;
 /* ÐŸÑ€Ð¸ Ñ€Ð°Ð·Ñ€ÐµÑˆÐµÐ½Ð¸Ð¸ ÑÐºÑ€Ð°Ð½Ð° 900px Ð¸ Ð½Ð¸Ð¶Ðµ, Ð²Ñ‹Ð²Ð¾Ð´Ð¸Ð¼ Ð½Ð° ÑÐºÑ€Ð°Ð½ Ð¸ÐºÐ¾Ð½ÐºÑƒ Ð±ÑƒÑ€Ð³ÐµÑ€Ð° */
 @media (max-width: 900px) {
 
-    .burger { display: flex }
-
+    .burger {
+      display: flex; 
+      
+            }
+ .wrapper{
+    margin-left: 65%;
+    
+}
+  .img-one-box{
+width: 400%;
+  }
+    .logo{
+        margin-left: 45%;
+   
+      }
     .nav{
         display: none;
         flex-direction: column;
@@ -2080,9 +2093,37 @@ width: 30%;
         padding: 35px 130px 0px 10px;
         background-color: #2a2a2a;
         animation: burgerAnimation 0.4s;
-        
     }
-
+  .card{
+      height: 280px;
+     width: 250px;
+    margin-left: 10%;
+   }
+  .card0 button, .card button{
+     margin-left: 70px; 
+  }
+   .card0{
+      height: 280px;
+     width: 250px;
+   }
+   .card1{
+      height: 340px;
+     width: 150px;
+   }
+   .card2{
+      height: 330px;
+   }
+        .card2 img{
+    width: 85%;
+    height: 140px;
+ }
+   .card3{
+      height: 400px;
+   }
+  .card3 img{
+    width: 85%;
+    height: 240px;
+ }
 }
 
 @keyframes burgerAnimation {
