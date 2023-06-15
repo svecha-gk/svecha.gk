@@ -1,6 +1,6 @@
  *, *::after, *::before{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
  }
  body {
@@ -140,7 +140,7 @@ li{
 .img-one-box :hover{
 transform: scale(1.1);
 }
-/* ÑˆÐ°Ð¿ÐºÐ° */
+/* Ã‘Ë†ÃÂ°ÃÂ¿ÃÂºÃÂ° */
 .card{
     width: 20%;
     height: 300px;
@@ -256,7 +256,7 @@ transform: scale(1.1);
     padding: 5px 5px 5px 5px;
     
 }
-/* Ð¿Ñ€ÐµÐ´ÑÑ‚Ð°Ð²Ð¸Ñ‚ÐµÐ»Ð¸ */
+/* ÃÂ¿Ã‘â‚¬ÃÂµÃÂ´Ã‘ÂÃ‘â€šÃÂ°ÃÂ²ÃÂ¸Ã‘â€šÃÂµÃÂ»ÃÂ¸ */
 .catalog-spisok{
     font-size: 15px;
     text-align:left;
@@ -300,7 +300,7 @@ transform: scale(1.1);
  .menu1_item:hover{
     border-bottom: 2px solid #f2ff00;
 }
-/* Ð¼ÐµÐ½ÑŽ ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³Ð° */
+/* ÃÂ¼ÃÂµÃÂ½Ã‘Å½ ÃÂºÃÂ°Ã‘â€šÃÂ°ÃÂ»ÃÂ¾ÃÂ³ÃÂ° */
 details{
     color: #dfdfdf;
     text-align: center;
@@ -492,13 +492,12 @@ details:hover{
     background-color: #ffbb00b4;
     cursor: pointer; 
 }
-/* Ð²ÐµÐ½ÐºÐ¸ */
+/* ÃÂ²ÃÂµÃÂ½ÃÂºÃÂ¸ */
 .containers{
     max-width: 1140px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
-  
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -506,7 +505,6 @@ details:hover{
 }
 .cells{
     width: 100%;
-    margin: 80px 0 110px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -558,12 +556,12 @@ i:nth-child(1){
 } 
 /* blago */
 .forma-menu{
-    display: flex;    
-    max-width: 1170px;
-    width: 99%;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    /* display: flex; */
+ 
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
     padding-top: 50px;
 }
 .about{
@@ -591,15 +589,14 @@ i:nth-child(1){
     background-color: #ffae5280;
 	max-width: 770px;
     width: 100%;
-    padding: 20px 20px;
+    padding: 0px 0px;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 25px;
 }
  
 .forms button{
-    width: 99%;
-    padding: 15px 20px;
-    margin-top: 10px;
+    width: 93%;
+    margin: 10px 0px 0px 10px;   
     border: 1px solid #d4cec6;
     border-radius: 3px;
     outline: none;  
@@ -607,7 +604,7 @@ i:nth-child(1){
     background-color: #000000cb;
     border: 0;
     text-transform: uppercase;
-    margin-top: 20px;
+   
     color: #fff;
     font-weight: 700;
     border-radius: 20px;
@@ -618,18 +615,19 @@ i:nth-child(1){
 }
 /* about */
 .location{
+  margin-top: 20px;
     margin-left: 18px;
     height: 500px;
     position: relative;
+  margin-bottom: -70px;
 }
 .location .container {
     position: absolute;
     top: 0;
     left: 0;
     background: linear-gradient(to left,  rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8) 50%);
-    height: 100%;
+    height: 80%; 
     width: 50%;
-  
 }
 .info_location h3{
     text-transform: uppercase;
@@ -679,7 +677,7 @@ i:nth-child(1){
     visibility: visible;
     opacity: 1;
  }
-/* ÑÑ‚Ñ€ÐµÐ»ÐºÐ° */
+/* Ã‘ÂÃ‘â€šÃ‘â‚¬ÃÂµÃÂ»ÃÂºÃÂ° */
 .rom img{
     color: #cc660788;
     
@@ -851,7 +849,7 @@ width: 30%;
 .burger::after { bottom: 0 }
 
 
-/* Ð”Ð¾Ð±Ð°Ð²Ð»ÑÐµÐ¼ ÐºÐ»Ð°ÑÑ active Ð´Ð»Ñ Ð°Ð½Ð¸Ð¼Ð°Ñ†Ð¸Ð¸ Ð¸ÐºÐ¾Ð½ÐºÐ¸ Ð±ÑƒÑ€Ð³ÐµÑ€Ð° */
+/* Ãâ€ÃÂ¾ÃÂ±ÃÂ°ÃÂ²ÃÂ»Ã‘ÂÃÂµÃÂ¼ ÃÂºÃÂ»ÃÂ°Ã‘ÂÃ‘Â active ÃÂ´ÃÂ»Ã‘Â ÃÂ°ÃÂ½ÃÂ¸ÃÂ¼ÃÂ°Ã‘â€ ÃÂ¸ÃÂ¸ ÃÂ¸ÃÂºÃÂ¾ÃÂ½ÃÂºÃÂ¸ ÃÂ±Ã‘Æ’Ã‘â‚¬ÃÂ³ÃÂµÃ‘â‚¬ÃÂ° */
 .burger.active span { transform: scale(0) }
 
 .burger.active::before{
@@ -865,7 +863,7 @@ width: 30%;
 }
 
 
-/* ÐŸÑ€Ð¸ Ñ€Ð°Ð·Ñ€ÐµÑˆÐµÐ½Ð¸Ð¸ ÑÐºÑ€Ð°Ð½Ð° 900px Ð¸ Ð½Ð¸Ð¶Ðµ, Ð²Ñ‹Ð²Ð¾Ð´Ð¸Ð¼ Ð½Ð° ÑÐºÑ€Ð°Ð½ Ð¸ÐºÐ¾Ð½ÐºÑƒ Ð±ÑƒÑ€Ð³ÐµÑ€Ð° */
+/* ÃÅ¸Ã‘â‚¬ÃÂ¸ Ã‘â‚¬ÃÂ°ÃÂ·Ã‘â‚¬ÃÂµÃ‘Ë†ÃÂµÃÂ½ÃÂ¸ÃÂ¸ Ã‘ÂÃÂºÃ‘â‚¬ÃÂ°ÃÂ½ÃÂ° 900px ÃÂ¸ ÃÂ½ÃÂ¸ÃÂ¶ÃÂµ, ÃÂ²Ã‘â€¹ÃÂ²ÃÂ¾ÃÂ´ÃÂ¸ÃÂ¼ ÃÂ½ÃÂ° Ã‘ÂÃÂºÃ‘â‚¬ÃÂ°ÃÂ½ ÃÂ¸ÃÂºÃÂ¾ÃÂ½ÃÂºÃ‘Æ’ ÃÂ±Ã‘Æ’Ã‘â‚¬ÃÂ³ÃÂµÃ‘â‚¬ÃÂ° */
 @media (max-width: 900px) {
 
     .burger { display: flex }
@@ -921,13 +919,20 @@ width: 30%;
      }
     h4{
         font-size: 20px;
-        padding: 20px 10px 20px 35px;
+        padding: 10px 10px 10px 35px;
         text-align: center;
         justify-self: center;
     }
    .logo{
         margin-right: 3px;
       }
+  .discription{
+    margin: 0px 0px 0px 0px;
+  }
+  .logos{
+        margin: 0px 0px 0px 0px;
+
+  }
     .menu1{
         text-align: center;
         justify-self: center;
@@ -951,7 +956,7 @@ width: 30%;
     text-align: center;
     justify-self: center;
     display: flex;
-    padding: 10px 0px 5px 55px;
+    
   }
   .size{
     text-align: center;
@@ -960,7 +965,7 @@ width: 30%;
     font-size: 13px; 
   }
   .card button{
-     margin-left: 30px; 
+     
        text-align: center;
     justify-self: center;
     display:  block;
@@ -971,6 +976,7 @@ width: 30%;
         height: 280px;
            margin-left: 18%;
            padding-top: 15px;
+   
      }
      .card0 img{
         width: 55%;
@@ -980,7 +986,7 @@ width: 30%;
     text-align: center;
     justify-self: center;
     display: flex;
-    padding: 10px 0px 5px 55px;
+    
   }
   .size0{
     text-align: center;
@@ -988,9 +994,7 @@ width: 30%;
     display:  block;
     font-size: 13px; 
   }
-  .card0 button{
-     margin-left: 30px; 
-  }
+  
   .card1{
     width: 85%;
     height: 340px;
@@ -1038,16 +1042,15 @@ width: 30%;
     }
           .cells{
             width: 100%;
-            margin: 0px 0px 0px 0px;
-           padding: 0px 10px 0px 0x;
+          margin: 20px 0px 20px 0px;
+            padding: 0px 0px 0px 0x;
             display: flex;
-            flex-wrap:wrap-;
-            justify-content: center;
+            /* justify-content: center; */
          }
            .cells img{
              width: 100%;
              height: 100%;
-               
+             margin: 0px 0px 0px -17px;  
            }
          .info_about  {
           font-size: 15px; 
@@ -1112,27 +1115,32 @@ width: 30%;
         font-size: 15px;
      }
      iframe{
-       width:96%;
+       width:95%;
        height: 80%;
      }
          .forma-menu{
-          padding: 10px 5px 10px 5px;
+          padding: 0px 0px 10px 0px;
+           margin: 20px 0px 0px 0px;
          }
          .forms{
             width: 260px;
-           height: 190px;
+           height: 160px;
           }
          }
+.forms h5{
+            padding: 10px 0px 10px 0px; 
+}
          .forms h4{
-       
           font-size: 20px;
-          padding: 0px 0px 10px 0px; 
+          padding: 15px 0px 1px 0px; 
          }
         .forms button{
          font-size: 10px;
          padding: 15px 0px 15px 0px;
         }
-         
+         .single-cta{
+           margin-top: 15px;
+         }
         .cta-text{
          padding: 0;
         }
